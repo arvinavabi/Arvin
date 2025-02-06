@@ -2405,13 +2405,6 @@
    *    controls in Android 4.
    * 2. Correct the inability to style clickable types in iOS and Safari.
    */
-  button,
-  html [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-    /* 2 */
-  }
   
   /**
    * Remove the inner border and padding in Firefox.
@@ -2505,7 +2498,6 @@
    * 2. Correct the outline style in Safari.
    */
   [type="search"] {
-    -webkit-appearance: textfield;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -2764,7 +2756,6 @@
   .breadcrumb [class^="mdi-"], .breadcrumb [class*="mdi-"],
   .breadcrumb i.material-icons {
     display: inline-block;
-    float: left;
     font-size: 24px;
   }
   
@@ -5490,7 +5481,6 @@
   
   .waves-circle {
     transform: translateZ(0);
-    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
   }
   
   .waves-input-wrapper {
@@ -5511,7 +5501,6 @@
     height: 2.5em;
     line-height: 2.5em;
     border-radius: 50%;
-    -webkit-mask-image: none;
   }
   
   .waves-block {
@@ -5796,7 +5785,6 @@
     cursor: zoom-in;
     position: relative;
     transition: opacity .4s;
-    -webkit-backface-visibility: hidden;
   }
   
   .materialboxed:hover:not(.active) {
@@ -6549,10 +6537,6 @@
     pointer-events: none;
   }
   
-  [type="checkbox"] {
-    /* checkbox aspect */
-  }
-  
   [type="checkbox"] + span:not(.lever) {
     position: relative;
     padding-left: 35px;
@@ -7065,10 +7049,6 @@
     margin-left: -1px;
     margin-top: 8px;
     font-size: 10px;
-  }
-  
-  input[type=range] {
-    -webkit-appearance: none;
   }
   
   input[type=range]::-webkit-slider-runnable-track {
