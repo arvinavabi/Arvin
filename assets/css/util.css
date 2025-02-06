@@ -3065,5 +3065,7 @@
 }
 
 
-
+.ltr-conent{
+	direction: ltr;
+}
 
